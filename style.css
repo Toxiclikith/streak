@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+  #streak {
+
+    margin: 20px auto;
+
+    width: 500px;
+
+    text-align: left;
+
+  }
+
+#streak {
+  margin: 20px auto;
+  width: 500px;
+  text-align: left;
+}
+
+#update-streak, #share-streak {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  @media (max-width: 500px) {
+
+    #streak {
+
+      width: 90%;
+
+    }
+
+  }
